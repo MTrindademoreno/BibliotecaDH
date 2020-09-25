@@ -5,8 +5,8 @@ class Coleção (
     var anoLançamento: Int,
     var preçoDeVenda: Double,
     var preçoAluguel: Double,
-    var EstadoAtual:Estado,
-    var listaLivros:MutableList<Livro>
+    var estado:Estado,
+    var listaDeLivros:MutableList<Livro>
     ){
 
 }

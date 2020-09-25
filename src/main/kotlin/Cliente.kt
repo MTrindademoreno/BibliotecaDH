@@ -1,3 +1,3 @@
-class Cliente(var nome:String, var rg:Int) {
-    var historico ="aqui devo definir o map"
+class Cliente(nome:String,  rg:Int):Pessoa(nome,rg) {
+
 }

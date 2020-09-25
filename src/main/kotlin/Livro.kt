@@ -5,7 +5,7 @@ open class Livro(
             var anoLançamento:Int,
             var preçoDeVenda:Double,
             var preçoAluguel:Double,
-            var estadoDAV:Estado=Estado.DISPONIVEL
+            var estado:Estado=Estado.DISPONIVEL
 ) {
 
 }

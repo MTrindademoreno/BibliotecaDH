@@ -1,4 +1,4 @@
-class Funcionario(var nome:String, var rg:Int) {
+class Funcionario( nome:String,  rg:Int):Pessoa(nome, rg) {
 
 
 }
